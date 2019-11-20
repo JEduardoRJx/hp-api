@@ -1,6 +1,6 @@
 export const houses = [
   {
-      "_id": "5a05e2b252f721a3cf2ea33f",
+      "id": "5a05e2b252f721a3cf2ea33f",
       "name": "Gryffindor",
       "mascot": "lion",
       "headOfHouse": "Minerva McGonagall",
@@ -60,7 +60,7 @@ export const houses = [
       ]
   },
   {
-      "_id": "5a05da69d45bd0a11bd5e06f",
+      "id": "5a05da69d45bd0a11bd5e06f",
       "name": "Ravenclaw",
       "mascot": "eagle",
       "headOfHouse": "Fillius Flitwick",
@@ -97,7 +97,7 @@ export const houses = [
       ]
   },
   {
-      "_id": "5a05dc8cd45bd0a11bd5e071",
+      "id": "5a05dc8cd45bd0a11bd5e071",
       "name": "Slytherin",
       "mascot": "serpent",
       "headOfHouse": "Severus Snape",
@@ -142,7 +142,7 @@ export const houses = [
       ]
   },
   {
-      "_id": "5a05dc58d45bd0a11bd5e070",
+      "id": "5a05dc58d45bd0a11bd5e070",
       "name": "Hufflepuff",
       "mascot": "badger",
       "headOfHouse": "Pomona Sprout",
@@ -184,13 +184,12 @@ export const houses = [
 
 export const characters = [
   {
-      "_id": "5a0fa648ae5bc100213c2332",
+      "id": "5a0fa648ae5bc100213c2332",
       "name": "Katie Bell",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "Lord Voldemort",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -199,12 +198,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a0fa67dae5bc100213c2333",
+      "id": "5a0fa67dae5bc100213c2333",
       "name": "Cuthbert Binns",
       "role": "Professor, History of Magic",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -213,13 +211,12 @@ export const characters = [
       "species": "ghost"
   },
   {
-      "_id": "5a0fa7dcae5bc100213c2338",
+      "id": "5a0fa7dcae5bc100213c2338",
       "name": "Sirius Black",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Padfoot",
       "animagus": "black dog",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -228,13 +225,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a107e1ae0686c0021283b19",
+      "id": "5a107e1ae0686c0021283b19",
       "name": "Lavender Brown",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "rat",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -243,12 +239,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a10944f3dc2080021cd8755",
+      "id": "5a10944f3dc2080021cd8755",
       "name": "Colin Creevey",
       "role": "Student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -257,12 +252,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a10947c3dc2080021cd8756",
+      "id": "5a10947c3dc2080021cd8756",
       "name": "Dennis Creevey",
       "role": "Student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -271,14 +265,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1096b33dc2080021cd8762",
+      "id": "5a1096b33dc2080021cd8762",
       "name": "Aberforth Dumbledore",
       "role": "Owner, Hog's Head Inn",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Ab",
       "patronus": "goat",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -287,7 +280,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1097653dc2080021cd8763",
+      "id": "5a1097653dc2080021cd8763",
       "name": "Albus Dumbledore",
       "role": "Headmaster, Hogwarts",
       "house": "Gryffindor",
@@ -295,7 +288,6 @@ export const characters = [
       "wand": "Elder, 15\", thestral tail hair",
       "boggart": "Ariana (sister)",
       "patronus": "phoenix",
-      "__v": 0,
       "ministryOfMagic": true,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -304,13 +296,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1098fd3dc2080021cd876e",
+      "id": "5a1098fd3dc2080021cd876e",
       "name": "Seamus Finnigan",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "banshee",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -319,7 +310,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109af13dc2080021cd877a",
+      "id": "5a109af13dc2080021cd877a",
       "name": "Hermione Granger",
       "role": "student",
       "house": "Gryffindor",
@@ -327,7 +318,6 @@ export const characters = [
       "wand": "Vine wood, 10 3/4\", dragon heartstring",
       "boggart": "failure",
       "patronus": "otter",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": true,
@@ -336,12 +326,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109bfc3dc2080021cd877f",
+      "id": "5a109bfc3dc2080021cd877f",
       "name": "Godric Gryffindor",
       "role": "Founder, Hogwarts",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -350,14 +339,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109c3d3dc2080021cd8780",
+      "id": "5a109c3d3dc2080021cd8780",
       "name": "Rubeus Hagrid",
       "role": "Groundkeeper, Professor, Care of Magical Creatures",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Oak, 16\", unknown core",
       "boggart": "Lord Voldemort",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -366,12 +354,11 @@ export const characters = [
       "species": "half-giant"
   },
   {
-      "_id": "5a109cb83dc2080021cd8784",
+      "id": "5a109cb83dc2080021cd8784",
       "name": "Angelina Johnson",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -380,13 +367,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109cd33dc2080021cd8785",
+      "id": "5a109cd33dc2080021cd8785",
       "name": "Lee Jordan",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "River",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -395,12 +381,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109e143dc2080021cd878d",
+      "id": "5a109e143dc2080021cd878d",
       "name": "Alice Longbottom",
       "role": "Auror (formerly)",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -409,12 +394,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109e1e3dc2080021cd878e",
+      "id": "5a109e1e3dc2080021cd878e",
       "name": "Frank Longbottom",
       "role": "Auror (formerly)",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -423,11 +407,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109e253dc2080021cd878f",
+      "id": "5a109e253dc2080021cd878f",
       "name": "Augusta Longbottom",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -436,14 +419,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109e543dc2080021cd8790",
+      "id": "5a109e543dc2080021cd8790",
       "name": "Neville Longbottom",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Cherry, 13\", unicorn hair",
       "boggart": "Severus Snape",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -452,7 +434,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109f053dc2080021cd8793",
+      "id": "5a109f053dc2080021cd8793",
       "name": "Remus Lupin",
       "role": "Professor, Defence Against the Dark Arts",
       "house": "Gryffindor",
@@ -461,7 +443,6 @@ export const characters = [
       "wand": "Cypress, 10 1/4\", unicorn hair",
       "boggart": "full moon",
       "patronus": "wolf",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -470,13 +451,12 @@ export const characters = [
       "species": "werewolf"
   },
   {
-      "_id": "5a1226520f5ae10021650d76",
+      "id": "5a1226520f5ae10021650d76",
       "name": "Parvati Patil",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "mummy",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -485,7 +465,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1226d70f5ae10021650d77",
+      "id": "5a1226d70f5ae10021650d77",
       "name": "Peter Pettigrew",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
@@ -493,7 +473,6 @@ export const characters = [
       "wand": "Chestnut, 9 1/4, dragon heartstring",
       "boggart": "Lord Voldemort",
       "animagus": "rat",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -502,7 +481,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12292a0f5ae10021650d7e",
+      "id": "5a12292a0f5ae10021650d7e",
       "name": "Harry Potter",
       "role": "student",
       "house": "Gryffindor",
@@ -511,7 +490,6 @@ export const characters = [
       "wand": "Holly, 11\", phoenix feather",
       "boggart": "dementor",
       "patronus": "stag",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": true,
@@ -520,7 +498,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12298d0f5ae10021650d7f",
+      "id": "5a12298d0f5ae10021650d7f",
       "name": "James Potter I",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
@@ -528,7 +506,6 @@ export const characters = [
       "wand": "Mahogany, 11\", unknown core",
       "patronus": "stag",
       "animagus": "stag",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -537,13 +514,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1229e10f5ae10021650d80",
+      "id": "5a1229e10f5ae10021650d80",
       "name": "Lily J. Potter",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Willow, 10 1/4\", unknown core",
       "patronus": "doe",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -552,11 +528,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a122cbe0f5ae10021650d89",
+      "id": "5a122cbe0f5ae10021650d89",
       "name": "Demelza Robins",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -565,12 +540,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1233ff0f5ae10021650d98",
+      "id": "5a1233ff0f5ae10021650d98",
       "name": "Alicia Spinnet",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -579,13 +553,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1234cb0f5ae10021650d9b",
+      "id": "5a1234cb0f5ae10021650d9b",
       "name": "Dean Thomas",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "severed hand walking on it's own",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -594,11 +567,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1237480f5ae10021650da3",
+      "id": "5a1237480f5ae10021650da3",
       "name": "Romilda Vane",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -607,13 +579,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1237c00f5ae10021650da5",
+      "id": "5a1237c00f5ae10021650da5",
       "name": "Arthur Weasley",
       "role": "Head, Misuse of Muggle Artifacts ",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "patronus": "weasel",
-      "__v": 0,
       "ministryOfMagic": true,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -622,13 +593,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1238070f5ae10021650da6",
+      "id": "5a1238070f5ae10021650da6",
       "name": "William Weasley",
       "role": "Curse Breaker, Gringotts Bank",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Bill",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -637,14 +607,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1238350f5ae10021650da7",
+      "id": "5a1238350f5ae10021650da7",
       "name": "Charles Weasley",
       "role": "Dragonologist",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Charlie",
       "wand": "Ash, 12\", unicorn hair tail",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -653,12 +622,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12387a0f5ae10021650da8",
+      "id": "5a12387a0f5ae10021650da8",
       "name": "Fred Weasley",
       "role": "co-owner of Weasleys' Wizard Wheezes",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -667,12 +635,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1238b20f5ae10021650da9",
+      "id": "5a1238b20f5ae10021650da9",
       "name": "George Weasley",
       "role": "co-owner of Weasleys' Wizard Wheezes",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -681,14 +648,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1239130f5ae10021650daa",
+      "id": "5a1239130f5ae10021650daa",
       "name": "Ginevra Weasley",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Ginny",
       "patronus": "horse",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": true,
@@ -697,13 +663,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12393d0f5ae10021650dab",
+      "id": "5a12393d0f5ae10021650dab",
       "name": "Molly Weasley",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "corpses of her family",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -712,12 +677,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12395f0f5ae10021650dac",
+      "id": "5a12395f0f5ae10021650dac",
       "name": "Percy Weasley",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -726,7 +690,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1239c80f5ae10021650dad",
+      "id": "5a1239c80f5ae10021650dad",
       "name": "Ronald Weasley",
       "role": "student",
       "house": "Gryffindor",
@@ -735,7 +699,6 @@ export const characters = [
       "wand": "Willow, 14\", unicorn hair tail",
       "boggart": "Aragog",
       "patronus": "jack russell terrier",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": true,
@@ -744,12 +707,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1239f10f5ae10021650dae",
+      "id": "5a1239f10f5ae10021650dae",
       "name": "Oliver Wood",
       "role": "student",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -758,12 +720,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a123b450f5ae10021650db7",
+      "id": "5a123b450f5ae10021650db7",
       "name": "Cadogan",
       "role": "Gryffindor Tower Door Guard",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -772,13 +733,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a123f130f5ae10021650dcc",
+      "id": "5a123f130f5ae10021650dcc",
       "name": "Nicholas de Mimsy-Porpington",
       "role": "Gryffindor House Ghost",
       "house": "Gryffindor",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Nearly Headless Nick",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -787,12 +747,11 @@ export const characters = [
       "species": "ghost"
   },
   {
-      "_id": "5a0fa8a6ae5bc100213c233b",
+      "id": "5a0fa8a6ae5bc100213c233b",
       "name": "Terry Boot",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -801,13 +760,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a107ffee0686c0021283b21",
+      "id": "5a107ffee0686c0021283b21",
       "name": "Cho Chang",
       "role": "Student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "patronus": "swan",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -816,13 +774,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a108023e0686c0021283b22",
+      "id": "5a108023e0686c0021283b22",
       "name": "Penelope Clearwater",
       "role": "Student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Penny",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -831,12 +788,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a108047e0686c0021283b23",
+      "id": "5a108047e0686c0021283b23",
       "name": "Michael Corner",
       "role": "Student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -845,12 +801,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1097d53dc2080021cd8769",
+      "id": "5a1097d53dc2080021cd8769",
       "name": "Marietta Edgecombe",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -859,13 +814,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1099cf3dc2080021cd8772",
+      "id": "5a1099cf3dc2080021cd8772",
       "name": "Filius Flitwick",
       "role": "Professor, Charms",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "Lord Voldemort",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -874,12 +828,11 @@ export const characters = [
       "species": "part-goblin"
   },
   {
-      "_id": "5a109a553dc2080021cd8777",
+      "id": "5a109a553dc2080021cd8777",
       "name": "Anthony Goldstein",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -888,14 +841,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109de83dc2080021cd878c",
+      "id": "5a109de83dc2080021cd878c",
       "name": "Gilderoy Lockhart",
       "role": "Professor, Defense Against the Dark Arts",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Cherry, 9\", dragon heartstring",
       "boggart": "cornish pixies",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -904,14 +856,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109e943dc2080021cd8791",
+      "id": "5a109e943dc2080021cd8791",
       "name": "Luna Lovegood",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Loony Lovegood",
       "patronus": "hare",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -920,13 +871,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109ebd3dc2080021cd8792",
+      "id": "5a109ebd3dc2080021cd8792",
       "name": "Xenophilius Lovegood",
       "role": "Editor, The Quibbler",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Xeno",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -935,13 +885,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1225a20f5ae10021650d73",
+      "id": "5a1225a20f5ae10021650d73",
       "name": "Garrick Ollivander",
       "role": "Wandmaker",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Hornbeam, 12 3/4\", dragon heartstring",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -950,12 +899,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12260f0f5ae10021650d75",
+      "id": "5a12260f0f5ae10021650d75",
       "name": "Padma Patil",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -964,13 +912,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a122a880f5ae10021650d82",
+      "id": "5a122a880f5ae10021650d82",
       "name": "Quirinus Quirrell",
       "role": "Professor, Defence Against the Dark Arts",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Alder, 9\", unicorn hair",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -979,13 +926,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a122ac40f5ae10021650d83",
+      "id": "5a122ac40f5ae10021650d83",
       "name": "Helena Ravenclaw",
       "role": "Ravenclaw House Ghost",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Grey Lady",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -994,12 +940,11 @@ export const characters = [
       "species": "ghost"
   },
   {
-      "_id": "5a122aef0f5ae10021650d84",
+      "id": "5a122aef0f5ae10021650d84",
       "name": "Rowena Ravenclaw",
       "role": "Founder, Hogwarts",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1008,13 +953,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12368a0f5ae10021650da0",
+      "id": "5a12368a0f5ae10021650da0",
       "name": "Sybill Trelawney",
       "role": "Professor, Divination",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Hazel, 9 1/2\", unicorn hair",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1023,13 +967,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a123e450f5ae10021650dc8",
+      "id": "5a123e450f5ae10021650dc8",
       "name": "Myrtle Warren",
       "role": "student",
       "house": "Ravenclaw",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Moaning Myrtle",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1038,12 +981,11 @@ export const characters = [
       "species": "ghost"
   },
   {
-      "_id": "5a0fa6bbae5bc100213c2334",
+      "id": "5a0fa6bbae5bc100213c2334",
       "name": "Phineas Nigellus Black",
       "role": "(Formerly) Headmaster of Hogwarts",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1052,11 +994,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a0fa772ae5bc100213c2337",
+      "id": "5a0fa772ae5bc100213c2337",
       "name": "Regulus Black",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1065,12 +1006,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a107e4ae0686c0021283b1a",
+      "id": "5a107e4ae0686c0021283b1a",
       "name": "Millicent Bulstrode",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1079,11 +1019,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1093eb3dc2080021cd8753",
+      "id": "5a1093eb3dc2080021cd8753",
       "name": "Crabbe",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1092,13 +1031,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a10942a3dc2080021cd8754",
+      "id": "5a10942a3dc2080021cd8754",
       "name": "Vincent Crabbe",
       "role": "Student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "Lord Voldemort",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1107,12 +1045,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1099353dc2080021cd876f",
+      "id": "5a1099353dc2080021cd876f",
       "name": "Marcus Flint",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1121,12 +1058,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109aa03dc2080021cd8779",
+      "id": "5a109aa03dc2080021cd8779",
       "name": "Gregory Goyle",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1135,13 +1071,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109d893dc2080021cd8789",
+      "id": "5a109d893dc2080021cd8789",
       "name": "Bellatrix Lestrange",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Bella",
       "wand": "Walnut, 10 3/4\", dragon heartstring",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1150,11 +1085,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109d9f3dc2080021cd878a",
+      "id": "5a109d9f3dc2080021cd878a",
       "name": "Rabastan Lestrange",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1163,11 +1097,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109dab3dc2080021cd878b",
+      "id": "5a109dab3dc2080021cd878b",
       "name": "Rodolphus Lestrange",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1176,13 +1109,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109f8b3dc2080021cd8795",
+      "id": "5a109f8b3dc2080021cd8795",
       "name": "Draco Malfoy",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Hawthorn, 10\", unicorn hair",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1191,12 +1123,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109fa83dc2080021cd8796",
+      "id": "5a109fa83dc2080021cd8796",
       "name": "Lucius Malfoy",
       "role": "School Governer of Hogwarts",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1205,11 +1136,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109fde3dc2080021cd8797",
+      "id": "5a109fde3dc2080021cd8797",
       "name": "Narcissa Malfoy",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1218,12 +1148,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1225640f5ae10021650d72",
+      "id": "5a1225640f5ae10021650d72",
       "name": "Theodore Nott",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1232,12 +1161,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1225e30f5ae10021650d74",
+      "id": "5a1225e30f5ae10021650d74",
       "name": "Pansy Parkinson",
       "role": "student",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1246,14 +1174,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a122c200f5ae10021650d88",
+      "id": "5a122c200f5ae10021650d88",
       "name": "Tom Riddle",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Lord Voldemort",
       "wand": "Yew, 13 1/2\", phoenix feather core",
       "boggart": "his own corpse",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1262,13 +1189,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1232600f5ae10021650d93",
+      "id": "5a1232600f5ae10021650d93",
       "name": "Horace Slughorn",
       "role": "Professor, Potions",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Cedar, 10 1/4\", dragon heartstring",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1277,12 +1203,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12327c0f5ae10021650d94",
+      "id": "5a12327c0f5ae10021650d94",
       "name": "Salazar Slytherin",
       "role": "Founder, Hogwarts",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1291,13 +1216,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1233bc0f5ae10021650d97",
+      "id": "5a1233bc0f5ae10021650d97",
       "name": "Severus Snape",
       "role": "Professor, Potions",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "patronus": "doe",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -1306,11 +1230,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1235060f5ae10021650d9c",
+      "id": "5a1235060f5ae10021650d9c",
       "name": "Andromeda Tonks",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1319,14 +1242,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1236eb0f5ae10021650da1",
+      "id": "5a1236eb0f5ae10021650da1",
       "name": "Dolores Umbridge",
       "role": "Head of the Muggle Born Registration Commission",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Birch, 8\", dragon heartstring",
       "patronus": "persian cat",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1335,11 +1257,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a123a710f5ae10021650db1",
+      "id": "5a123a710f5ae10021650db1",
       "name": "Blaise Zabini",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1348,12 +1269,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a123af40f5ae10021650db5",
+      "id": "5a123af40f5ae10021650db5",
       "name": "Bloody Baron",
       "role": "Slytherin House Ghost",
       "house": "Slytherin",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1362,12 +1282,11 @@ export const characters = [
       "species": "ghost"
   },
   {
-      "_id": "5a0fa4daae5bc100213c232e",
+      "id": "5a0fa4daae5bc100213c232e",
       "name": "Hannah Abbott",
       "role": "student",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -1376,12 +1295,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a0fa842ae5bc100213c2339",
+      "id": "5a0fa842ae5bc100213c2339",
       "name": "Amelia Bones",
       "role": "Head, Department of Magical Law Enforcement",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": true,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -1390,12 +1308,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a0fa86dae5bc100213c233a",
+      "id": "5a0fa86dae5bc100213c233a",
       "name": "Susan Bones",
       "role": "student",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -1404,13 +1321,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1096253dc2080021cd875f",
+      "id": "5a1096253dc2080021cd875f",
       "name": "Cedric Diggory",
       "role": "Student",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "wand": "Ash, 12 1/4\", unicorn hair",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1419,13 +1335,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1098bd3dc2080021cd876d",
+      "id": "5a1098bd3dc2080021cd876d",
       "name": "Justin Finch-Fletchley",
       "role": "student",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "boggart": "Lord Voldemort ",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -1434,12 +1349,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a109c993dc2080021cd8783",
+      "id": "5a109c993dc2080021cd8783",
       "name": "Helga Hufflepuff",
       "role": "Founder, Hogwarts",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1448,7 +1362,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1223720f5ae10021650d6f",
+      "id": "5a1223720f5ae10021650d6f",
       "name": "Ernest Macmillan",
       "role": "student",
       "house": "Hufflepuff",
@@ -1456,7 +1370,6 @@ export const characters = [
       "alias": "Ernie",
       "boggart": "Lord Voldemort",
       "patronus": "boar",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": true,
@@ -1465,7 +1378,7 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1223ed0f5ae10021650d70",
+      "id": "5a1223ed0f5ae10021650d70",
       "name": "Minerva McGonagall",
       "role": "Professor, Transfiguration",
       "house": "Gryffindor",
@@ -1474,7 +1387,6 @@ export const characters = [
       "boggart": "Lord Voldemort",
       "patronus": "cat",
       "animagus": "tabby cat",
-      "__v": 0,
       "ministryOfMagic": true,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -1483,13 +1395,12 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a122f3d0f5ae10021650d8d",
+      "id": "5a122f3d0f5ae10021650d8d",
       "name": "Newton Scamander ",
       "role": "Author, Fantastic Beasts and Where to Find Them",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Newt ",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1498,11 +1409,10 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1232b10f5ae10021650d95",
+      "id": "5a1232b10f5ae10021650d95",
       "name": "Hepzibah Smith",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1511,12 +1421,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a12333f0f5ae10021650d96",
+      "id": "5a12333f0f5ae10021650d96",
       "name": "Zacharias Smith",
       "role": "student",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -1525,12 +1434,11 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1234500f5ae10021650d99",
+      "id": "5a1234500f5ae10021650d99",
       "name": "Pomona Sprout",
       "role": "Professor, Herbology",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1539,14 +1447,13 @@ export const characters = [
       "species": "human"
   },
   {
-      "_id": "5a1235790f5ae10021650d9d",
+      "id": "5a1235790f5ae10021650d9d",
       "name": "Nymphadora Tonks",
       "role": "Auror",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
       "alias": "Tonks",
       "patronus": "wolf",
-      "__v": 0,
       "ministryOfMagic": true,
       "orderOfThePhoenix": true,
       "dumbledoresArmy": false,
@@ -1555,12 +1462,11 @@ export const characters = [
       "species": "human (metamorphmagus)"
   },
   {
-      "_id": "5a123cb40f5ae10021650dbc",
+      "id": "5a123cb40f5ae10021650dbc",
       "name": "Fat Friar",
       "role": "Hufflepuff House Ghost",
       "house": "Hufflepuff",
       "school": "Hogwarts School of Witchcraft and Wizardry",
-      "__v": 0,
       "ministryOfMagic": false,
       "orderOfThePhoenix": false,
       "dumbledoresArmy": false,
@@ -1576,7 +1482,7 @@ export const characters = [
 //   houses.forEach(house =>{
 //     house.members.forEach(member => {
 //       characters.forEach(character => {
-//         if (member === character._id) {
+//         if (member === character.id) {
 //           members.push(character)
 //         }
 //       })
