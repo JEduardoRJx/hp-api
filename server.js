@@ -27,33 +27,66 @@ app.get('/api/v1/houses', (request, response) => {
 // GET an individual house
 app.get('/api/v1/houses/:id', (request, response) => {
  const { id } = request.params;
- const house = app.locals.houses.find(house => house.id === id);
-  if (!house) {
-    response.sendStatus(404)
-  }
-  response.status(200).json(house)
+ database('houses').select()
+  .then(houses => {
+    const house = houses.find(house => house.id === parseInt(id));
+    if (!house) {
+      response.sendStatus(404);
+    }
+    response.status(200).json(house);
+  })
+  .catch((error) => {
+    response.status(500).json({ error });
+  });
 })
 
 // GET all characters
 app.get('/api/v1/characters', (request, response) => {
-  const { characters } = app.locals;
-  response.json({ characters });
+  database('characters').select()
+    .then((characters) => {
+      response.status(200).json(characters);
+    })
+    .catch((error) => {
+      response.status(500).json({ error });
+    });
 });
 
 // GET an individual character
 app.get('/api/v1/characters/:id', (request, response) => {
   const { id } = request.params;
-  const character = app.locals.characters.find(character => character.id === id);
-   if (!character) {
-     response.sendStatus(404)
-   }
-   response.status(200).json(character)
+ database('characters').select()
+  .then(characters => {
+    const character = characters.find(character => character.id === parseInt(id));
+    if (!character) {
+      response.sendStatus(404);
+    }
+    response.status(200).json(character);
+  })
+  .catch((error) => {
+    response.status(500).json({ error });
+  });
  })
 
 // POST a new house
 app.post('/api/v1/houses', (request, response) => {
-  // const house = request.body;
-  // app.locals.house.push(house);
+  const house = request.body;
+  
+  for (let requiredParameter of ['name', 'mascot', 'headOfHouse', 'founder']) {
+    if (!house[requiredParameter]) {
+      return response
+        .status(422)
+        .send({ error: `Expected format: { name: <String>, mascot: <String>, headOfHouse: <String>, founder: <String> }. You're missing a "${requiredParameter}" property.` });
+    }
+  }
+
+  database('houses').insert(house, 'id')
+    .then(house => {
+      response.status(201).json({ id: house[0] })
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+
 })
 
 // POST a new characters
