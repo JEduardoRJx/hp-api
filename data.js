@@ -1,4 +1,4 @@
-export const houses = [
+const houses = [
   {
       "id": "5a05e2b252f721a3cf2ea33f",
       "name": "Gryffindor",
@@ -182,7 +182,7 @@ export const houses = [
 
 // *******************************
 
-export const characters = [
+const characters = [
   {
       "id": "5a0fa648ae5bc100213c2332",
       "name": "Katie Bell",
@@ -1476,6 +1476,10 @@ export const characters = [
   }
 ]
 
+module.exports = {
+    houses,
+    characters
+}
 // const findMembers = (houses, characters) => {
 //   let members = []
 
