@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+const port = process.emv.PORT || 3000;
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 
-app.set('port', process.env.Port || 3000);
+// app.set('port', process.env.Port || 3000);
 app.use(express.json());
 
 app.locals.title = 'HP API';
@@ -102,6 +103,6 @@ app.delete('app/v1/character', (request, response) => {
   // remove the character from the database
 })
 
-app.listen(app.get('port'), () => {
-  console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
+app.listen(port, () => {
+  console.log(`${app.locals.title} is running on http://localhost:${port}.`);
 });
