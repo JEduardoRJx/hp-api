@@ -1,15 +1,13 @@
-import { houses, characters} from './data'
 const express = require('express');
-// import express from 'express';
 const app = express();
+const environment = process.env.NODE_ENV || 'development';
+const configuration = require('./knexfile')[environment];
+const database = require('knex')(configuration);
 
-// console.log('hey', members.length);
 app.set('port', process.env.Port || 3000);
 app.use(express.json());
 
 app.locals.title = 'HP API';
-app.locals.characters = characters
-app.locals.houses = houses
 
 app.get('/', (request, response) => {
   response.send('Oh hey HP-API');
@@ -17,9 +15,13 @@ app.get('/', (request, response) => {
 
 // GET all houses
 app.get('/api/v1/houses', (request, response) => {
-  const { houses} = app.locals;
-  console.log("love", houses.length);
-  response.json({ houses });
+  database('houses').select()
+    .then((houses) => {
+      response.status(200).json(houses);
+    })
+    .catch((error) => {
+      response.status(500).json({ error });
+    });
 });
 
 // GET an individual house
@@ -35,7 +37,6 @@ app.get('/api/v1/houses/:id', (request, response) => {
 // GET all characters
 app.get('/api/v1/characters', (request, response) => {
   const { characters } = app.locals;
-  console.log("love",characters.length);
   response.json({ characters });
 });
 
