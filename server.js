@@ -7,7 +7,6 @@ const database = require('knex')(configuration);
 
 // app.set('port', process.env.Port || 3000);
 app.use(express.json());
-
 app.locals.title = 'HP API';
 
 app.get('/', (request, response) => {
@@ -39,7 +38,7 @@ app.get('/api/v1/houses/:id', (request, response) => {
   .catch((error) => {
     response.status(500).json({ error });
   });
-})
+});
 
 // GET all characters
 app.get('/api/v1/characters', (request, response) => {
@@ -66,7 +65,7 @@ app.get('/api/v1/characters/:id', (request, response) => {
   .catch((error) => {
     response.status(500).json({ error });
   });
- })
+ });
 
 // POST a new house
 app.post('/api/v1/houses', (request, response) => {
@@ -87,21 +86,46 @@ app.post('/api/v1/houses', (request, response) => {
     .catch(error => {
       response.status(500).json({ error });
     });
+});
 
-})
-
-// POST a new characters
+// POST a new character
 app.post('/api/v1/characters', (request, response) => {
-  // const character = request.body;
-  // app.locals.characters.push(character);
-})
+  const character = request.body;
+  
+  for (let requiredParameter of ['name', 'house_id']) {
+    if (!character[requiredParameter]) {
+      return response
+        .status(422)
+        .send({ error: `Expected format: { name: <String>, house_id: <Integer> }. You're missing a "${requiredParameter}" property.` });
+    }
+  }
+
+  database('characters').insert(character, 'id')
+    .then(character => {
+      response.status(201).json({ id: character[0] })
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+});
 
 // DELETE a character
-app.delete('app/v1/character', (request, response) => {
-  // const { id } = request.body;
-  // const character = app.locals.characters.find(character => character.id === id)
-  // remove the character from the database
-})
+app.delete('/api/v1/characters/:id', (request, response) => {
+  const { id } = request.params;
+  database('characters')
+    .where('id', id)
+    .delete()
+    .then(message => {
+      if (message === 1) {
+        response.status(201).send(`Character has been successfully deleted.`)
+      } else {
+        response.status(404).send(`Character with id ${id} does not exist.`)
+      }
+    })
+    .catch(error => {
+      response.status(500).json({error})
+    });
+});
 
 app.listen(port, () => {
   console.log(`${app.locals.title} is running on http://localhost:${port}.`);
