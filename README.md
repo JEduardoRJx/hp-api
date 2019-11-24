@@ -14,7 +14,7 @@ This API came out of a school project as a way to get comfortable with building 
 `https://wizard-boy-api.herokuapp.com/`
 
 
-### GET Houses
+## GET Houses
 `GET /api/v1/houses`
 Will return all Hogwarts Houses.
 
@@ -26,7 +26,24 @@ Will return all Hogwarts Houses.
 | `headOfHouse` | *string*      | Head of House, ex: `Severus Snape` |
 | `founder`     | *string*      | Founder of House, ex: `Salazar Slytherin` |
 | `created_at`  | *string*      | When info. was created  |
-| `updated_at`  | *string*      | When info. was updated |
+| `updated_at`  | *string*      | When info. was last updated |
 
+## GET Individual House
+`GET /api/v1/houses/:id`
+Will return a single Hogwarts House with matching `id`.
 
+## GET Characters
+`GET /api/v1/characters`
+Will return all characters.
 
+| Param         | Value         | Description  |
+| ------------- |:-------------:| -----:|
+| `id`          | *integer*     | To identify a character, ex: `2`|
+| `name`        | *string*      | House name:, ex `Sirius Black` |
+| `house_id`    | *integer*     | House id that the character belongs to, ex: `1` |
+| `created_at`  | *string*      | When info. was created  |
+| `updated_at`  | *string*      | When info. was last updated |
+
+## GET Individual Character
+`GET /api/v1/characters/:id`
+Will return a single Character with matching `id`.
