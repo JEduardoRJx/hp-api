@@ -18,8 +18,8 @@ This API came out of a school project as a way to get comfortable with building 
 `GET /api/v1/houses`
 Will return all Hogwarts Houses.
 
-| Param         | Value         | Description  |
-| ------------- |:-------------:| -----:|
+| **Param**     | **Value**     | **Description**  |
+| ------------- |:-------------:| ----------------:|
 | `id`          | *integer*     | To identify a house, ex: `3`|
 | `name`        | *string*      | House name:, ex `Slytherin` |
 | `mascot`      | *string*      | House Mascot, ex: `snake` |
@@ -36,8 +36,8 @@ Will return a single Hogwarts House with matching `id`.
 `GET /api/v1/characters`
 Will return all characters.
 
-| Param         | Value         | Description  |
-| ------------- |:-------------:| -----:|
+| **Param**     | **Value**     | **Description**  |
+| ------------- |:-------------:| ----------------:|
 | `id`          | *integer*     | To identify a character, ex: `2`|
 | `name`        | *string*      | House name:, ex `Sirius Black` |
 | `house_id`    | *integer*     | House id that the character belongs to, ex: `1` |
@@ -52,8 +52,8 @@ Will return a single Character with matching `id`.
 `POST /api/v1/houses`
 Able to create a new Hogwarts House.
 
-| Param         | Value         | Description  |
-| ------------- |:-------------:| -----:|
+| **Param**     | **Value**     | **Description**  |
+| ------------- |:-------------:| ----------------:|
 | `id`          | *integer* | Will automatically be set|
 | `name`        | *string*  | **required** House name:, ex `Slytherin` |
 | `mascot`      | *string*  | **required** House Mascot, ex: `snake` |
@@ -66,8 +66,8 @@ Able to create a new Hogwarts House.
 `POST /api/v1/characters`
 Able to create a new Hogwarts House.
 
-| Param         | Value         | Description  |
-| ------------- |:-------------:| -----:|
+| **Param**     | **Value**     | **Description**  |
+| ------------- |:-------------:| ----------------:|
 | `id`          | *integer* | Will automatically be set|
 | `name`        | *string*  | **required** Character name, ex `Sirius` |
 | `house_id`    | *integer* | **required** House Id character belonds to, ex: `1` |
@@ -78,6 +78,6 @@ Able to create a new Hogwarts House.
 `DELETE /api/v1/characters/:id`
 Able to delete any character.
 
-| Param         | Value         | Description  |
-| ------------- |:-------------:| -----:|
+| **Param**     | **Value**     | **Description**  |
+| ------------- |:-------------:| ----------------:|
 | `id`          | *integer*     | Need `id` of exisiting character |
