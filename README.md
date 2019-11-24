@@ -1,5 +1,5 @@
 # HP-API
-Harry Potter API is a RESTful API. The following is documentation for Version 1 (V1). Released November 2019.
+Harry Potter API is a RESTful API. The following is documentation for Version 1 (V1) released November 2019.
 This API came out of a school project as a way to get comfortable with building databases using:
   * Express
   * Knex
@@ -13,7 +13,6 @@ This API came out of a school project as a way to get comfortable with building 
  All Routes stem from:
 `https://wizard-boy-api.herokuapp.com/`
 
-
 ## GET Houses
 `GET /api/v1/houses`
 Will return all Hogwarts Houses.
@@ -21,7 +20,7 @@ Will return all Hogwarts Houses.
 | **Param**     | **Value**     | **Description**  |
 | ------------- |:-------------:| ----------------|
 | `id`          | *integer*     | To identify a house, ex: `3`|
-| `name`        | *string*      | House name:, ex `Slytherin` |
+| `name`        | *string*      | House name:, ex: `Slytherin` |
 | `mascot`      | *string*      | House Mascot, ex: `snake` |
 | `headOfHouse` | *string*      | Head of House, ex: `Severus Snape` |
 | `founder`     | *string*      | Founder of House, ex: `Salazar Slytherin` |
@@ -39,7 +38,7 @@ Will return all characters.
 | **Param**     | **Value**     | **Description**  |
 | ------------- |:-------------:| ----------------|
 | `id`          | *integer*     | To identify a character, ex: `2`|
-| `name`        | *string*      | House name:, ex `Sirius Black` |
+| `name`        | *string*      | House name:, ex: `Sirius Black` |
 | `house_id`    | *integer*     | House id that the character belongs to, ex: `1` |
 | `created_at`  | *string*      | When info. was created  |
 | `updated_at`  | *string*      | When info. was last updated |
@@ -64,20 +63,20 @@ Able to create a new Hogwarts House.
 
 ## POST A New Character
 `POST /api/v1/characters`
-Able to create a new Hogwarts House.
+Able to create a new character.
 
 | **Param**     | **Value**     | **Description**  |
 | ------------- |:-------------:| ----------------|
 | `id`          | *integer* | Will automatically be set|
-| `name`        | *string*  | **required** Character name, ex `Sirius` |
+| `name`        | *string*  | **required** Character name, ex: `Sirius` |
 | `house_id`    | *integer* | **required** House Id character belonds to, ex: `1` |
 | `created_at`  | *string*  | Will automatically be set|
 | `updated_at`  | *string*  | Will automatically be set|
 
-## DELETE
+## DELETE A Character
 `DELETE /api/v1/characters/:id`
 Able to delete any character.
 
 | **Param**     | **Value**     | **Description**  |
 | ------------- |:-------------:| ----------------|
-| `id`          | *integer*     | Need `id` of exisiting character |
+| `id`          | *integer*     | Need `id` of exisiting character, ex: `22` | 
