@@ -61,3 +61,15 @@ Able to create a new Hogwarts House.
 | `founder`     | *string*  | **required** Founder of House, ex: `Salazar Slytherin` |
 | `created_at`  | *string*  | Will automatically be set|
 | `updated_at`  | *string*  | Will automatically be set|
+
+## POST A New Character
+`POST /api/v1/characters`
+Able to create a new Hogwarts House.
+
+| Param         | Value         | Description  |
+| ------------- |:-------------:| -----:|
+| `id`          | *integer* | Will automatically be set|
+| `name`        | *string*  | **required** Character name, ex `Sirius` |
+| `house_id`    | *integer* | **required** House Id character belonds to, ex: `1` |
+| `created_at`  | *string*  | Will automatically be set|
+| `updated_at`  | *string*  | Will automatically be set|
