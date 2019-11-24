@@ -73,3 +73,11 @@ Able to create a new Hogwarts House.
 | `house_id`    | *integer* | **required** House Id character belonds to, ex: `1` |
 | `created_at`  | *string*  | Will automatically be set|
 | `updated_at`  | *string*  | Will automatically be set|
+
+## DELETE
+`DELETE /api/v1/characters/:id`
+Able to delete any character.
+
+| Param         | Value         | Description  |
+| ------------- |:-------------:| -----:|
+| `id`          | *integer*     | Need `id` of exisiting character |
