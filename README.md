@@ -47,3 +47,17 @@ Will return all characters.
 ## GET Individual Character
 `GET /api/v1/characters/:id`
 Will return a single Character with matching `id`.
+
+## POST A New House
+`POST /api/v1/houses`
+Able to create a new Hogwarts House.
+
+| Param         | Value         | Description  |
+| ------------- |:-------------:| -----:|
+| `id`          | *integer* | Will automatically be set|
+| `name`        | *string*  | **required** House name:, ex `Slytherin` |
+| `mascot`      | *string*  | **required** House Mascot, ex: `snake` |
+| `headOfHouse` | *string*  | **required** Head of House, ex: `Severus Snape` |
+| `founder`     | *string*  | **required** Founder of House, ex: `Salazar Slytherin` |
+| `created_at`  | *string*  | Will automatically be set|
+| `updated_at`  | *string*  | Will automatically be set|
