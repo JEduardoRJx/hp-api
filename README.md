@@ -173,3 +173,6 @@ Able to delete any character.
   "id": 77
 }
 ```
+
+## GitHub Projects Workflow Board
+[GitHub Projects Workflow Board](https://github.com/JEduardoRJx/hp-api/projects/1)
